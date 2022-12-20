@@ -10,7 +10,7 @@
 
 
 [rewrite_local]
-^https:\/\/mmm\.mirzibaba\.com\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa.js
+^https:\/\/mmm\.mirzibaba\.com\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa
 [mitm] 
 hostname = mmm.mirzibaba.com
 
