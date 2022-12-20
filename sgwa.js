@@ -7,7 +7,8 @@
  
 [rewrite_local]
 ^https:\/\/mmm\.mirzibaba\.com\/api\/user url script-response-body
-https://github.com/yansheng666/Qxconf/blob/main/sgwa.js
+https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa.js
+
 [mitm] 
 hostname = mmm.mirzibaba.com
 */
