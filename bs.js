@@ -8,7 +8,7 @@
 *******************************
 
 [rewrite_local]
-^https:\/\/api\.boshu\.cn
+^https:\/\/api\.boshu\.cn url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/bs.js
 [mitm] 
 hostname = api.boshu.cn
 
