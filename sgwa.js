@@ -13,7 +13,10 @@
 ^https:\/\/mmm\.mirzibaba\.com\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa.js
 [mitm] 
 hostname = mmm.mirzibaba.com
-
+[rewrite_local]
+^https:\/\/leyou\.jingtanwl\.cn\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa.js
+[mitm] 
+hostname = leyou.jingtanwl.cn
 *******************************/
 
 var body = $response.body;
