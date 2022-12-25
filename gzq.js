@@ -1,4 +1,5 @@
 #果之圈文案
+
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
@@ -26,6 +27,4 @@ if (url.indexOf(bc) != -1){
     obj.data.sheng = 1000;
     body = JSON.stringify(obj);
 }
-
-
 $done({body});
