@@ -18,8 +18,7 @@ rewrite_local]
 [rewrite_local]
 ^https:\/\/gzq\.jingtanwl\.cn\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa.js
 
-
 ###主机名###
 
 [mitm] 
-hostname = mmm.mirzibaba.com,leyou.jingtanwl.cn,gzq.jingtanwl.cn
+hostname = mmm.mirzibaba.com,leyou.jingtanwl.cn,gzq.jingtanwl.cn,gzq.jingtanwl.cn
