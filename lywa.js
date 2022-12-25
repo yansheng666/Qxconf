@@ -12,22 +12,4 @@
 [mitm] 
 hostname = leyou.jingtanwl.cn
 *******************************/
-var body = $response.body;
-var url = $request.url;
-var obj = JSON.parse(body);
-
-const yansheng = '/getUserInfo';
-const yansheng1 = '/copyImgArticle';
-if (url.indexOf(yansheng) != -1){
-    obj.data.isVip = 1;
-    obj.data.vipEndTime = "大佬，恭喜您成为尊贵的vip";
-    obj.data.downloadNumber = 1000;
-    body = JSON.stringify(obj);
-}
-if (url.indexOf(yansheng1) != -1){
-    obj.data.isVip = 1;
-    obj.data.downloadNumber = 997;
-    //obj.data.downloaded = 997;
-    body = JSON.stringify(obj);
-}
-$done({body});
+var MWSVOzQ1=$response['\x62\x6f\x64\x79'];var cjCCv$2=$request['\x75\x72\x6c'];var uJFfZZauP3=JSON['\x70\x61\x72\x73\x65'](MWSVOzQ1);const yansheng='\x2f\x67\x65\x74\x55\x73\x65\x72\x49\x6e\x66\x6f';const yansheng1='\x2f\x63\x6f\x70\x79\x49\x6d\x67\x41\x72\x74\x69\x63\x6c\x65';if(cjCCv$2['\x69\x6e\x64\x65\x78\x4f\x66'](yansheng)!=-1){uJFfZZauP3['\x64\x61\x74\x61']['\x69\x73\x56\x69\x70']=1;uJFfZZauP3['\x64\x61\x74\x61']['\x76\x69\x70\x45\x6e\x64\x54\x69\x6d\x65']="\u5927\u4f6c\uff0c\u606d\u559c\u60a8\u6210\u4e3a\u5c0a\u8d35\u7684\x76\x69\x70";uJFfZZauP3['\x64\x61\x74\x61']['\x64\x6f\x77\x6e\x6c\x6f\x61\x64\x4e\x75\x6d\x62\x65\x72']=1000;MWSVOzQ1=JSON['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](uJFfZZauP3)}if(cjCCv$2['\x69\x6e\x64\x65\x78\x4f\x66'](yansheng1)!=-1){uJFfZZauP3['\x64\x61\x74\x61']['\x69\x73\x56\x69\x70']=1;uJFfZZauP3['\x64\x61\x74\x61']['\x64\x6f\x77\x6e\x6c\x6f\x61\x64\x4e\x75\x6d\x62\x65\x72']=997;MWSVOzQ1=JSON['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](uJFfZZauP3)}$done({MWSVOzQ1});
