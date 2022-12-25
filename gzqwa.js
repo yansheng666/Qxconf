@@ -8,7 +8,7 @@
 
 *******************************
 [rewrite_local]
-^https:\/\/gzq\.jingtanwl\.cn\/ap url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/gzqwa.js
+^https:\/\/gzq\.jingtanwl\.cn\/api url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/gzqwa.js
 [mitm] 
 hostname = gzq.jingtanwl.cn
 *******************************/
