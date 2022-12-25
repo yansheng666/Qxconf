@@ -13,7 +13,7 @@
 ^https:\/\/mmm\.mirzibaba\.com\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa.js
 #乐优文案
 rewrite_local]
-^https:\/\/leyou\.jingtanwl\.cn\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/lywa.js
+^https:\/\/leyou\.jingtanwl\.cn\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa.js
 
 ###主机名###
 
