@@ -16,7 +16,6 @@ hostname = mmm.mirzibaba.com
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
-
 const yansheng = '/getUserInfo';
 const yansheng1 = '/copyImgArticle';
 if (url.indexOf(yansheng) != -1){
