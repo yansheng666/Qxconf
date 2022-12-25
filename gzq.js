@@ -17,14 +17,12 @@ if (url.indexOf(yansheng) != -1){
 if (url.indexOf(fz) != -1){
     obj.data.can = 1;
     obj.data.code = 1;
-    obj.data.sheng = 1000;
     body = JSON.stringify(obj);
 }
 
 if (url.indexOf(bc) != -1){
     obj.data.can = 1;
     obj.data.code = 1;
-    obj.data.sheng = 1000;
     body = JSON.stringify(obj);
 }
 $done({body});
