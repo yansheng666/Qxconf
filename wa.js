@@ -16,7 +16,7 @@ rewrite_local]
 ^https:\/\/leyou\.jingtanwl\.cn\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa.js
 #果之圈文案
 [rewrite_local]
-^https:\/\/gzq\.jingtanwl\.cn\/api url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/gzq.js
+^https:\/\/gzq\.jingtanwl\.cn\/ap url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/gzq.js
 
 ###主机名###
 
