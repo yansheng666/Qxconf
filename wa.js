@@ -5,7 +5,6 @@
  使用说明：此脚本仅供学习与交流.
          请勿转载与贩卖！
          ⚠️⚠️⚠️
-
 #*******************/
 
 #水果文案
@@ -14,3 +13,9 @@
 #乐优文案
 rewrite_local]
 ^https:\/\/leyou\.jingtanwl\.cn\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/sgwa.js
+#果之圈文案
+rewrite_local]
+^https:\/\/gzq\.jingtanwl\.cn\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/gzqwa.js
+
+[mitm] 
+hostname = mmm.leyou.mirzibaba.com,jingtanwl.cn,gzq.jingtanwl.cn
