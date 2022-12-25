@@ -21,4 +21,4 @@ rewrite_local]
 ###主机名###
 
 [mitm] 
-hostname = mmm.mirzibaba.com,leyou.jingtanwl.cn,gzq.jingtanwl.cn,gzq.jingtanwl.cn
+hostname = mmm.mirzibaba.com,leyou.jingtanwl.cn,gzq.jingtanwl.cn
