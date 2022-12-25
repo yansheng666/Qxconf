@@ -18,21 +18,16 @@ var obj = JSON.parse(body);
 
 const yansheng = '/getUserInfo';
 const yansheng1 = '/copyImgArticle';
-
-
 if (url.indexOf(yansheng) != -1){
     obj.data.isVip = 1;
     obj.data.vipEndTime = "大佬，恭喜您成为尊贵的vip";
     obj.data.downloadNumber = 1000;
     body = JSON.stringify(obj);
 }
-
 if (url.indexOf(yansheng1) != -1){
     obj.data.isVip = 1;
     obj.data.downloadNumber = 997;
     //obj.data.downloaded = 997;
     body = JSON.stringify(obj);
 }
-
-
 $done({body});
