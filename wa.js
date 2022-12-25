@@ -18,4 +18,4 @@ rewrite_local]
 ^https:\/\/gzq\.jingtanwl\.cn\/api\/user url script-response-body https://raw.githubusercontent.com/yansheng666/Qxconf/main/gzqwa.js
 
 [mitm] 
-hostname = mmm.leyou.mirzibaba.com,jingtanwl.cn,gzq.jingtanwl.cn
+hostname = mmm.mirzibaba.com,leyou.jingtanwl.cn,gzq.jingtanwl.cn
